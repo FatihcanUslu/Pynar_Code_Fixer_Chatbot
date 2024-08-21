@@ -7,7 +7,7 @@ from viztracer import VizTracer
 tracer = VizTracer()
 tracer.start()
 # Connect to the Anvil server
-anvil.server.connect("server_UCEHNOMW334V2UB226TDFWMI-HGWEWUAQBSLFUAQ3")
+anvil.server.connect("put your own api key")
 class ModelThread(QtCore.QThread):
     result_ready = QtCore.pyqtSignal(str)
 
